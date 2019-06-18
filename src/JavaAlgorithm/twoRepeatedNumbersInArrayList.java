@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class twoRepeatedNumbersInArrayList {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// This methods finds and returns numbers that ONLY repeat 2 times in a given Array List. 
+		// The return type is also Array List.
 		
 		ArrayList<Integer> la = new ArrayList<>();
 		la.add(1);
@@ -18,10 +19,12 @@ public class twoRepeatedNumbersInArrayList {
 		
 		System.out.println(twoTimes(la));
 		
-		
 
 	}
 
+	
+	// static method to find repeated numbers
+	
 	public static ArrayList<Integer> twoTimes(ArrayList<Integer> list){
 		  ArrayList<Integer> l1 = new ArrayList<>();
 		  
@@ -42,15 +45,10 @@ public class twoRepeatedNumbersInArrayList {
 		   }
 		   
 		 }
-		 
-		 
 		
 		return l1;
 		
-		
-		
 	}
 	
-		
 	
 }
