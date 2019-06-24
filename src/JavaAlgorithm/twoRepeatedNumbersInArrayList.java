@@ -5,8 +5,10 @@ import java.util.ArrayList;
 public class twoRepeatedNumbersInArrayList {
 
 	public static void main(String[] args) {
+		
 		// This methods finds and returns numbers that ONLY repeat 2 times in a given Array List. 
 		// The return type is also Array List.
+		
 		
 		ArrayList<Integer> la = new ArrayList<>();
 		la.add(1);
